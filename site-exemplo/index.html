@@ -8,21 +8,61 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #7676f7c5;
-            color: rgb(54, 51, 37);
+            background-image: linear-gradient(50deg, rgb(27, 161, 226), rgb(0, 80, 239), rgb(106, 0, 255), rgb(170, 0, 255));
+            color: white;
+        }
+        
+        body>p {
+            color: #000;
+            padding: 20px;
+            min-width: 260px;
+            max-width: 1000px;
+            text-indent: 20px;
+            text-align: justify;
+            margin: auto;
+            margin-bottom: 30px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+            border-radius: 10px;
         }
         
         h1 {
             text-align: center;
-            background-image: radial-gradient(circle, rgba(218, 218, 181, 0.856), rgba(103, 103, 241, 0.829));
             min-width: none;
-            max-width: 600px;
+            text-shadow: 2px 2px 2px #615c5c;
+            box-shadow: inset 0px 2px 12px #5f8f38b4;
+            color: rgba(78, 221, 114, 0.863);
         }
         
         p {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bolder;
-            color: crimson;
+            background-color: aliceblue;
+        }
+        
+        div {
+            background-color: rgba(106, 0, 255, 0.753);
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            border: 1px solid black;
+            color: white;
+            border-radius: 5px;
+            padding: 20px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+        
+        div>p {
+            display: none;
+        }
+        
+        div:hover>p {
+            display: block;
+            color: rgb(223, 95, 95);
+        }
+        
+        div:hover {
+            background-color: chartreuse;
         }
     </style>
 </head>
@@ -30,7 +70,16 @@
 <body>
     <h1>Ola, Mundo!</h1>
     <hr>
+
     <p> ipsum dolor sit amet, consectetur adipisicing elit. Quod, nisi ab cupiditate neque accusamus repudiandae corrupti eligendi officiis officia consequuntur natus minus repellendus impedit voluptas? Minima, tenetur delectus! Aliquam, est.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corrupti at obcaecati ipsum aspernatur fugiat magnam aperiam, in odit molestiae vitae, earum a ex exercitationem distinctio nulla, debitis rerum explicabo?</p>
+    <div>
+        Ola mundo!
+        <p>Hello World!</p>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, adipisci! Deserunt placeat recusandae nemo. Modi blanditiis exercitationem ab perferendis sed velit, nobis saepe fuga quaerat error voluptate quo. Delectus, sit?</p>
 </body>
 
 </html>
