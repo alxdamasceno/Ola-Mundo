@@ -8,12 +8,14 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(50deg, rgb(27, 161, 226), rgb(0, 80, 239), rgb(106, 0, 255), rgb(170, 0, 255));
-            color: white;
+            background-image: url(image/montain.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
         }
         
         body>p {
-            color: #000;
+            color: rgb(8, 0, 0);
             padding: 20px;
             min-width: 260px;
             max-width: 1000px;
@@ -26,21 +28,25 @@
         }
         
         h1 {
+            background-image: linear-gradient(180deg, #dee065bd, #e21d1dab, #6057d39f);
             text-align: center;
+            font-size: 3.5em;
             min-width: none;
             text-shadow: 2px 2px 2px #615c5c;
             box-shadow: inset 0px 2px 12px #5f8f38b4;
-            color: rgba(78, 221, 114, 0.863);
+            border-radius: 10px;
+            color: rgba(255, 255, 0, 0.87);
         }
         
         p {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bolder;
-            background-color: aliceblue;
+            background-color: rgba(240, 248, 255, 0.486);
+            border-radius: 10px;
         }
         
         div {
-            background-color: rgba(106, 0, 255, 0.753);
+            background-image: linear-gradient(to top, #f4c134e0, #00ff40bd, #352cb3c7);
             width: 200px;
             height: 100px;
             text-align: center;
@@ -68,18 +74,28 @@
 </head>
 
 <body>
-    <h1>Ola, Mundo!</h1>
+    <header>
+        <h1>Ola, Mundo!</h1>
+    </header>
     <hr>
 
-    <p> ipsum dolor sit amet, consectetur adipisicing elit. Quod, nisi ab cupiditate neque accusamus repudiandae corrupti eligendi officiis officia consequuntur natus minus repellendus impedit voluptas? Minima, tenetur delectus! Aliquam, est.</p>
+    <p> ipsum dolor sit amet, consectetur adipisicing elit. Quod, nisi ab cupiditate neque accusamus repudiandae corrupti eligendi officiis <mark>officia consequuntur natus</mark> minus repellendus impedit voluptas? Minima, tenetur delectus! Aliquam, est.</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corrupti at obcaecati ipsum aspernatur fugiat magnam aperiam, in odit molestiae vitae, earum a ex exercitationem distinctio nulla, debitis rerum explicabo?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corrupti at obcaecati ipsum aspernatur fugiat magnam aperiam, in odit <strong style="background-color: darkorange;color: darkred;">molestiae vitae</strong>, earum a ex exercitationem
+        distinctio nulla, debitis rerum explicabo?</p>
     <div>
         Ola mundo!
         <p>Hello World!</p>
     </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, adipisci! Deserunt placeat recusandae nemo. Modi blanditiis exercitationem ab perferendis sed velit, nobis saepe fuga quaerat error voluptate quo. Delectus, sit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, adipisci! Deserunt placeat recusandae nemo. Modi blanditiis exercitationem ab perferendis sed velit, nobis saepe fuga quaerat error <a href="pag_01.html " target="_self">voluptate</a>        quo. Delectus, sit?
+    </p>
+
+    <textarea name="Lorem" id="Lorem" cols="30" rows="10" style="border: 2px solid red; border-radius: 10px; float:right; background-color: aqua; font-size: 1.0rem; padding: 10px; text-indent: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consectetur molestias quidem consequuntur itaque velit praesentium, libero reprehenderit. Eum officiis quis consectetur placeat, sapiente ea molestias exercitationem voluptates fuga suscipit.</textarea>
+
+
+
+
 </body>
 
 </html>
